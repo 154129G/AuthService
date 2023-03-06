@@ -1,0 +1,23 @@
+Go to the Terminale and execute npm i
+
+Call using postmen 
+
+curl --location --request POST 'http://localhost:5000/users' 
+--header 'Content-Type: application/json' 
+--data-raw '{"data": [
+    {"objectName": "1s1 image",
+     "imageUrl": "https://cataas.com/cat/says/",
+     "text": "Hello",
+     "width": 400, 
+     "height" : 500, 
+     "color" : "Pink",
+     "size": 100
+      },
+      {"objectName": "2nd image",
+        "imageUrl": "https://cataas.com/cat/says/",
+        "text": "you",
+        "width": 400, 
+        "height" : 500, 
+        "color" : "Pink",
+        "size": 100
+      }]}'

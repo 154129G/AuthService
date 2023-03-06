@@ -1,0 +1,26 @@
+{
+  "name": "back-end",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.3",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.2",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.19",
+    "pug": "2.0.0-beta11",
+    "validator": "^13.7.0"
+  }
+}
